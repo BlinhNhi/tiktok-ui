@@ -1,0 +1,12 @@
+.wrapper {
+    width: 100%;
+    // ko vượt quá chiều cao màn hình
+    max-height: min(calc((100vh - 96px) - 60px), 734px);
+    min-height: 100px;
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 12px;
+    border-radius: 8px;
+    padding-top: 8px;
+    display: flex;
+    flex-direction: column;
+}
